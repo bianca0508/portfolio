@@ -112,6 +112,7 @@ div.gallery1 img:hover {
 div.gallery1 img {
   height: 285px;
     margin: 5px;
+    border: 1px solid transparent;
 }
 
 
