@@ -1,0 +1,223 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* HEADER */
+header{
+    background-image: url(PORTFOLIO/FAMILIAS/_MG_1944.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 570px;
+    margin-bottom: 0px;
+}
+
+/* TITULO BIANCA BARBIERI*/
+
+h1{
+    text-align: right;
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-right: 20px;
+    font-style: italic;
+    color: darkslategray;
+}
+
+/* GERAL*/
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: lightgray;    
+    
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+   text-align: center;
+}
+
+section {
+    padding-top: 10px;
+}
+
+    
+/* MENU DE NAVEGACAO */
+
+nav {
+    background-color: darkgray;
+    text-align: center;
+    position: sticky;
+    font-weight: bold;
+    top: 0;
+    right: 0;
+    left: 0;
+ 
+}
+
+nav a {
+    text-decoration: none; /* CSS isso tira o underline*/
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkgray;
+    margin-right: -2px;
+    color: black;
+    font-style: bold;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+nav a:hover { 
+    background-color: rosybrown;
+    color: snow;
+     /* ISSO COLORE O BOTAO DE NAV QUANDO COLOCA O MOUSE EM CIMA e*/
+}
+
+
+ /* ORGANIZACAO GALERIAS e*/
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: auto;
+    height: 285px;
+    float: left;
+     display: flex;
+    justify-content:flex-start
+    
+}
+
+div.gallery img:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  height: 285px;
+}
+
+/* GALERIA 1 EH A TERCEIRA FOTO DE CADA GALERIA; QUE SERVE PARA SEGURAR A LINHA DE BAIXO e*/
+
+div.gallery1 {
+  border: 1px solid #ccc;
+  width: auto;
+}
+
+div.gallery1 img:hover {
+  border: 1px solid #777;
+}
+
+div.gallery1 img {
+  height: 285px;
+    margin: 5px;
+}
+
+
+/* ABOUT ME COMECA AQUI e*/
+
+  div.aboutme { 
+    padding: 20px;
+    margin:auto;
+      text-align:center;
+      font-size: 14px;
+    width: 650px;
+    height: 190px;
+    bottom: 0;
+    background-color:white;
+    color: gray;
+        }
+
+div.aboutme img {
+  height: 187px;
+    margin: 5px;
+      float: left;
+}
+ 
+/* FORMULARIO COMECA AQUI e*/
+
+div.flex{
+    display: flex;
+    justify-content:flex-start;
+}
+
+form, h3 {
+    margin-left: 15px;
+}
+    label {
+    width: 120px;
+    display: inline-block;
+}
+
+label[for="news"] {
+    width: auto;
+}
+input[type="text"], [type="email"] {
+    width: 250px;    
+    padding: 8px;
+ }
+
+textarea {
+    width: 300px;
+    height: 150px;
+    padding: 8px;
+    vertical-align: top;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+/* FOOTER COMECA AQUI e*/
+
+footer{
+    background-color: darkgray;
+    padding: 5px; 
+    font-size: 12px;
+}
+
+div.footer {
+    text-align: left: 
+}
+
+.fab {
+    font-size: 40px; 
+    padding: 10px; 
+    margin: -5px;
+}
+
+
+.fa-facebook-square {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+/* PAGINA CD e*/
+
+  div.pagecv { 
+    padding: 20px;
+    margin:auto;
+      text-align:center;
+      font-size: 14px;
+    width: 650px;
+    height: auto;
+    bottom: 0;
+    background-color:white;
+    color: gray;
+        }
+
+div.pagecv img {
+  height: 187px;
+    margin: 5px;
+      float: left;
+}
