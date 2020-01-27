@@ -116,13 +116,13 @@ div.gallery1 img {
 
 /* ABOUT ME COMECA AQUI e*/
 
-  div.aboutme { 
+   div.aboutme { 
     padding: 20px;
     margin:auto;
       text-align:center;
       font-size: 14px;
     width: 650px;
-    height: 190px;
+    height: auto;
     bottom: 0;
     background-color:white;
     color: gray;
@@ -130,7 +130,8 @@ div.gallery1 img {
 
 div.aboutme img {
   height: 187px;
-    margin: 5px;
+   margin-top: 13px;
+    margin-right: 10px;
       float: left;
 }
  
