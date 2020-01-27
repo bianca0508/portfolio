@@ -89,10 +89,6 @@ div.gallery {
     
 }
 
-div.gallery img:hover {
-  border: 1px solid #777;
-}
-
 div.gallery img {
   height: 285px;
     border: 1px solid transparent;
@@ -105,9 +101,6 @@ div.gallery1 {
   width: auto;
 }
 
-div.gallery1 img:hover {
-  border: 1px solid #777;
-}
 
 div.gallery1 img {
   height: 285px;
@@ -204,7 +197,7 @@ div.footer {
     color: black;
 }
 
-/* PAGINA CD e*/
+/* PAGINA CV e*/
 
   div.pagecv { 
     padding: 20px;
