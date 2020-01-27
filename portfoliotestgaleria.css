@@ -95,7 +95,7 @@ div.gallery img:hover {
 
 div.gallery img {
   height: 285px;
-  border: 1px solid transparent;
+    border: 1px solid transparent;
 }
 
 /* GALERIA 1 EH A TERCEIRA FOTO DE CADA GALERIA; QUE SERVE PARA SEGURAR A LINHA DE BAIXO e*/
@@ -114,7 +114,6 @@ div.gallery1 img {
     margin: 5px;
     border: 1px solid transparent;
 }
-
 
 /* ABOUT ME COMECA AQUI e*/
 
