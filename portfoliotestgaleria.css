@@ -76,7 +76,7 @@ nav a:hover {
 }
 
 
- /* ORGANIZACAO GALERIAS e*/
+/* ORGANIZACAO GALERIAS e*/
 
 div.gallery {
   margin: 5px;
@@ -87,6 +87,10 @@ div.gallery {
      display: flex;
     justify-content:flex-start
     
+}
+
+div.gallery img:hover {
+  border: 1px solid #777;
 }
 
 div.gallery img {
@@ -101,6 +105,9 @@ div.gallery1 {
   width: auto;
 }
 
+div.gallery1 img:hover {
+  border: 1px solid #777;
+}
 
 div.gallery1 img {
   height: 285px;
